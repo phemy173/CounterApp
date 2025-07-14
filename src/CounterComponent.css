@@ -1,0 +1,50 @@
+.counter-container {
+  text-align: center;
+  padding: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  width: 300px;
+  margin: 2rem auto;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.counter-value {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #004403;
+
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.limit-msg {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}
